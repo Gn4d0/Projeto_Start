@@ -10,7 +10,7 @@ function Footer(){
                 <a href= "">Home</a>
                 <a href= "">Seja Parceiro</a>
                 <a href= "">Contatos</a>
-                <span> 2024 todos os direitos reservados </span>
+                <span> 2025 todos os direitos reservados </span>
             </nav>
 
 
