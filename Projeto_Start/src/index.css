@@ -5,11 +5,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
---color-primary: #fff
---color-secondary: #0C5BC3
---color-tertiary: #FFFF00
 
-*{                                    
+
+* {                                    
   margin: 0;
   padding: 0;
   box-sizing: border-box;
