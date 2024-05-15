@@ -20,7 +20,7 @@ function cadastroMercado(){
                 </span>
                 <div className="wrap-input">
                  <input>
-                 gcl
+                
                  
                  </input>                                             
                 </div>
