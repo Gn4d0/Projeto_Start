@@ -1,6 +1,20 @@
+import Footer from "../../components/Footer/footer"
+import Header from "../../components/Header/header"
+
 function Login(){
     return(
-    <p> Essa é uma página de login </p>)
+        <>
+            <Header/>
+       
+                <p> Essa é uma página de login </p>
+
+            <Footer/>
+        
+        </>
+       
+
+
+)
 }
 
 export default Login

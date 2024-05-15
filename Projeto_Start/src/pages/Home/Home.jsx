@@ -1,8 +1,10 @@
 import './home.css'
-import Footer from '../../components/Footer'
+import Footer from '../../components/Footer/footer'
 import Header from '../../components/Header/header'
 
 import mulherIdosa from '/src/assets/images/mulherIdosa.png';
+import estrela from '/src/assets/images/estrela.svg';
+import sardinha from '/src/assets/images/sardinha.png';
 
 function Home() {
   
@@ -13,29 +15,80 @@ function Home() {
       <section className = 'banner'>
         <div>
           <h1>Onde a economia encontra qualidade!</h1>
-          <span>Acessível para todos, graças à nossa parceria com supermercados locais</span>
+            <span>Acessível para todos, graças à nossa parceria com supermercados locais</span>
         </div>
         
-        <img src={mulherIdosa} alt="imagem de home" className='mulherIdosa'/>
+              <img src={mulherIdosa} alt="imagem de home" className='mulherIdosa'/>
         
-        <div>
-          <button calssName = 'promocao' >Promoções</button>
-        </div>
-
+                <div>
+                  <button calssName = 'promocao' >Promoções</button>
+                </div>
       </section>
 
       <section className = 'parceiros'>
-          
+
+        <div>
           <h2>Paceiros</h2>
-          <span>Atacadão</span>
-          <span>Mix Mateus</span>
-          <span>Novo Atacarejo</span>
+            <span>Atacadão</span>
+              <img src = {estrela} alt = "imagem parceiro etrela" className = 'estrela'/>
+                <span>Mix Mateus</span>
+                  <img src = {estrela} alt = "imagem parceiro joao joia" className = 'joao'/>
+                    <span>Novo Atacarejo</span>
+                      <img src = {estrela} alt = "imagem parceiro trevo" className = 'trevo'/>
+        </div>  
         
         <div>
           <button className  = 'mais'>Mais</button>
-        </div>  
-      
+        </div>
+          
+
       </section>
+
+      <section className='amostra'>
+        <div>
+          <div>
+            <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
+          </div>
+            <span> Sardinha Coqueiro óleo lata 75g</span>
+              <div>
+                <button class = 'adicionar'>Adicionar</button>
+              </div>
+              <div>
+                <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
+              </div>
+                <span> Sardinha Coqueiro óleo lata 75g</span>
+                <div>
+                  <button class = 'adicionar'>Adicionar</button>
+                </div>
+                  <div>
+                    <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
+                  </div>
+                    <span> Sardinha Coqueiro óleo lata 75g</span>
+                    <div>
+                      <button class = 'adicionar'>Adicionar</button>
+                    </div>
+                      <div>
+                        <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
+                      </div>
+                        <span> Sardinha Coqueiro óleo lata 75g</span>
+                        <div>
+                          <button class = 'adicionar'>Adicionar</button>
+                        </div>
+
+        </div>
+
+      </section>
+
+      
+        
+
+
+
+
+      
+      
+
+
         
       <Footer />
 
