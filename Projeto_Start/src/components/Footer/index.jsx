@@ -1,4 +1,4 @@
-import styles from './Footer.module.css'
+import styles from './footer.module.css'
 
 
 
@@ -12,7 +12,6 @@ function Footer(){
                 <a href= "">Contatos</a>
                 <span> 2024 todos os direitos reservados </span>
             </nav>
-
 
         </footer>
 

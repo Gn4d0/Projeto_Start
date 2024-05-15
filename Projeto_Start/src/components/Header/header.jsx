@@ -1,10 +1,9 @@
-import styles from './Header.module.css'
-
+import './header.css'
 
 function Header() {
     return (
         
-        <header className = {styles.header}>
+        <header className = "header">
 
             <span> Mesa Solidária </span>
             <nav> 
