@@ -6,6 +6,8 @@ import Home from './pages/Home/Home'
 
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Login from './pages/Login/login'
+import Carrinho from './pages/Carrinho/carrinho'
+import Produtos from './pages/Produtos/produtos'
 
 function App() {
   
@@ -16,8 +18,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/login" element={<Login/>}/>
+        <Route path="/carrinho" element={<Carrinho/>}/>
+        <Route path="/produtos" element={<Produtos/>}/>
       </Routes>
       </BrowserRouter>
     </>
