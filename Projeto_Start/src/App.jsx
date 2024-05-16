@@ -1,5 +1,7 @@
 import Header from "./components/Header/Index"
 import Footer from "./components/Footer"
+import { BrowserRouter as router, Routes, Route, Link } from "react-router-dom"
+import cadastroMercado from "./pages/Home/cadastroMercado"
 
 function App() {
   
@@ -7,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      Conteúdo
+        conteúdo
       <Footer />
     </>
   )
