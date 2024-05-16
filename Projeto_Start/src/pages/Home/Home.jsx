@@ -19,6 +19,11 @@ function Home() {
         </div>
         
               <img src={mulherIdosa} alt="imagem de home" className='mulherIdosa'/>
+                <div>
+                  <svg width="300" height="200">
+                    <circle cx="150" cy="100" r="90" fill="blue" />
+                  </svg>
+                </div>
         
                 <div>
                   <button calssName = 'promocao' >Promoções</button>
@@ -29,11 +34,11 @@ function Home() {
 
         <div>
           <h2>Paceiros</h2>
-            <span>Atacadão</span>
+            <span>Supermercado Estrela</span>
               <img src = {estrela} alt = "imagem parceiro etrela" className = 'estrela'/>
-                <span>Mix Mateus</span>
+                <span>Joao de Joia</span>
                   <img src = {estrela} alt = "imagem parceiro joao joia" className = 'joao'/>
-                    <span>Novo Atacarejo</span>
+                    <span>Supermercado Trevo</span>
                       <img src = {estrela} alt = "imagem parceiro trevo" className = 'trevo'/>
         </div>  
         
@@ -53,27 +58,27 @@ function Home() {
               <div>
                 <button class = 'adicionar'>Adicionar</button>
               </div>
-              <div>
-                <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
-              </div>
+        <div>
+            <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
+        </div>
                 <span> Sardinha Coqueiro óleo lata 75g</span>
+          <div>
+              <button class = 'adicionar'>Adicionar</button>
+          </div>
+              <div>
+                  <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
+              </div>
+                  <span> Sardinha Coqueiro óleo lata 75g</span>
                 <div>
-                  <button class = 'adicionar'>Adicionar</button>
+                    <button class = 'adicionar'>Adicionar</button>
                 </div>
                   <div>
-                    <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
+                      <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
                   </div>
-                    <span> Sardinha Coqueiro óleo lata 75g</span>
-                    <div>
-                      <button class = 'adicionar'>Adicionar</button>
-                    </div>
+                      <span> Sardinha Coqueiro óleo lata 75g</span>
                       <div>
-                        <img src = {sardinha} alt = "imagem 01 produto amostra" className = 'imagem 01 amostra'/>
-                      </div>
-                        <span> Sardinha Coqueiro óleo lata 75g</span>
-                        <div>
                           <button class = 'adicionar'>Adicionar</button>
-                        </div>
+                      </div>
 
         </div>
 
