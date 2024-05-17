@@ -1,16 +1,27 @@
-import Header from "./components/Header/Index"
-import Footer from "./components/Footer"
-import { BrowserRouter as router, Routes, Route, Link } from "react-router-dom"
-import cadastroMercado from "./pages/Home/cadastroMercado"
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+import './App.css'
+import Home from './pages/Home/Home'
+
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Login from './pages/Login/login'
+import Carrinho from './pages/Carrinho/carrinho'
+import Produtos from './pages/Produtos/produtos'
 
 function App() {
   
 
   return (
     <>
-      <Header />
-        conteúdo
-      <Footer />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/carrinho" element={<Carrinho/>}/>
+        <Route path="/produtos" element={<Produtos/>}/>
+      </Routes>
+      </BrowserRouter>
     </>
   )
 }

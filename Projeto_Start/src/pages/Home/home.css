@@ -1,0 +1,35 @@
+.banner{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: skyblue; */
+    background: url('/src/assets/images/texturaFundo.jpg');
+    background-size: cover;
+}
+
+.mulherIdosa{
+    width: 40vw;
+}
+
+.promocao{
+    border-radius: 20%;
+}
+
+.parceiros{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mais{
+    border-radius: 20%;
+}
+
+.amostra{
+    display: flex;
+    
+
+}

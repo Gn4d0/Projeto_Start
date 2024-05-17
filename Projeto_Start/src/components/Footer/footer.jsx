@@ -13,7 +13,6 @@ function Footer(){
                 <span> 2025 todos os direitos reservados </span>
             </nav>
 
-
         </footer>
 
     )
