@@ -8,6 +8,9 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Login from './pages/Login/login'
 import Carrinho from './pages/Carrinho/carrinho'
 import Produtos from './pages/Produtos/produtos'
+import CadastroMercado from './pages/CadastroMercado/cadastroMercado'
+import CadastroUse from './pages/CadastroUse/cadastrouse'
+
 
 function App() {
   
@@ -20,6 +23,8 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/carrinho" element={<Carrinho/>}/>
         <Route path="/produtos" element={<Produtos/>}/>
+        <Route path="/cadastromercado" element={<CadastroMercado/>}/>
+        <Route path="/cadastrouse" element={<CadastroUse/>}/>
       </Routes>
       </BrowserRouter>
     </>
